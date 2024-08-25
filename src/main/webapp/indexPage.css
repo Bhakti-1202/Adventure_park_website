@@ -1,0 +1,357 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+	font-size: 20px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body
+{
+	overflow-x: hidden;
+}
+
+.navigation_bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgb(15, 15, 15);
+	z-index: 2;
+}
+.navmenu
+{
+	color: rgb(253, 251, 255);
+	font-weight: bolder;
+	transition-duration: 0.6s;
+}
+.navmenu:hover
+{
+	color: limegreen;
+}
+.logo,.myname
+{
+	font-size: 45px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-family:Arial Black ;
+	color: rgb(245, 244, 248);
+	-webkit-text-stroke: 1px rgb(236, 241, 235);
+    transition-duration: 0.6s;
+}
+.logo:hover
+{
+    color: limegreen;
+}
+
+
+.video-div
+{
+	width: 100px;
+	height: 500px;
+}
+
+		.park-section
+		{
+			background-color: #2B1E13;
+			padding-top: 60px;
+		}
+
+		.park-section h2
+		{
+			padding-top: 10px;
+			text-align: center;
+			color: lightgreen;
+			font-family: Arial Black;
+		}
+		
+		.park-div
+		{
+			width: 100%;
+			height: 400px;
+			display: flex;
+		}
+
+		.parks
+		{
+			width: 30%;
+			height: 300px;
+			margin-left: 2.5%;
+			margin-top: 20px;
+			display: flex;
+			box-shadow: 0px 0px 20px gray;
+			border-radius: 20px;
+			background-color: white;
+		}
+
+		.parks img 
+		{
+			margin: 20px;
+			border-radius: 20px;
+		}
+
+		.content
+		{
+			text-align: center;
+			font-family: Arail;
+		}
+
+		.content h1
+		{
+			margin-top: 70px;
+			font-size: 40px;
+			font-weight: bolder;
+			margin-right: 30px;
+
+		}
+
+		button[type="button"]
+		{
+			width: 80%;
+			height: 40px;
+			outline: none;
+			border: none;
+			border-radius: 15px;
+			margin-top:30% ;
+			background-color: yellowgreen ;
+			font-size: 15px;
+			font-weight: bolder;
+		}
+
+		.memory-container
+		{
+			width: 100%;
+			height: 500px;
+			margin-top: 20px;
+			background-color: #f7f7f7;
+		}
+
+		.memory-text
+		{
+			text-align: center;
+		}
+
+		.memory-text h1
+		{
+			padding-top: 10px;
+			font-family: Bebas Neue;
+		}
+
+		.memory-img
+		{
+			margin: 5px;
+			border-radius: 20px;
+			box-shadow: 0px 0px 20px gray;
+		}
+
+		.memory-img img
+		{
+			border-radius: 20px;
+		}
+footer
+{
+    color: white;
+    text-align: center;
+	margin-top: 300px;
+	background-color: rgb(111, 111, 240);
+}
+img
+{
+	position: relative;
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+
+}
+h5
+{
+	margin-top: 30px;
+}
+a
+{
+	color: white;
+	font-weight: bolder;
+	font-variant: small-caps;
+}
+a:hover
+{
+	text-decoration: none;
+	color: limegreen
+}
+.img
+{
+	border-bottom: 1px solid black;
+}
+  video 
+  {
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+  }
+  .video-wrapper 
+  {
+	border: 2px solid #000;
+	width: 250px;
+	height: 40vw;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   margin-top: 60px;
+  }
+  
+  .header h1
+  {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	color: #fcfcfc;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+	text-shadow: 1px 1px 20px rgba(0,0,0,0.6);
+  }
+  .park-section
+  {
+	  background-color: #2B1E13;
+	  margin-top: 650px;
+  }
+
+  .park-section h2
+  {
+	  padding-top: 10px;
+	  text-align: center;
+	  color: lightgreen;
+	  font-family: Arial Black;
+  }
+  
+  .park-div
+  {
+	  width: 100%;
+	  height: 400px;
+	  display: flex;
+  }
+
+  .parks
+  {
+	  width: 30%;
+	  height: 300px;
+	  margin-left: 2.5%;
+	  margin-top: 20px;
+	  display: flex;
+	  box-shadow: 0px 0px 20px gray;
+	  border-radius: 20px;
+	  background-color: white;
+  }
+
+  .parks img 
+  {
+	  margin: 20px;
+	  border-radius: 20px;
+  }
+
+  .content
+  {
+	  text-align: center;
+	  font-family: Arail;
+  }
+
+  .content h1
+  {
+	  margin-top: 50px;
+	  font-size: 20px;
+	  font-weight: bolder;
+
+  }
+
+  button[type="button"]
+  {
+	  width: 80%;
+	  height: 40px;
+	  outline: none;
+	  border: none;
+	  border-radius: 15px;
+	  margin-top:30% ;
+	  background-color: yellowgreen ;
+	  font-size: 15px;
+	  font-weight: bolder;
+  }
+
+  .memory-container
+  {
+	  width: 100%;
+	  height: 300px;
+	  margin-top: 20px;
+	  background-color: #f9f9f6;
+  }
+
+  .memory-text
+  {
+	  text-align: center;
+  }
+
+  .memory-text h1
+  {
+	  padding-top: 10px;
+	  font-family: Bebas Neue;
+	  background-color: rgb(146, 146, 233);
+  }
+
+  .memory-img
+  {
+	  margin: 5px;
+	  border-radius: 20px;
+	  box-shadow: 0px 0px 20px gray;
+  }
+
+  .memory-img img
+  {
+	  border-radius: 20px;
+  }
+  
+  .table-main
+  {
+  	padding-top: 50px ;
+  }
+  .table-main h1
+  {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	background-color: white;
+	}
+	.ticket
+	{
+	 background-color:rgb(111, 111, 240);
+	 height: 50px;
+	 text-align: center;
+	 color: white;
+	 font-size: 20px;
+	 padding-top: 10px;
+	}
+	.table
+	{
+	 width: 125%;
+	 text-align: center;
+	}
+	.table-main
+	{
+		margin-top: 700px;
+		background-color: whitesmoke;
+	}
+	.table td
+	{
+		font-style: italic;
+	}
+	
+	 .table tr:nth-child(even)
+     {
+     	background-color: #dddddd;
+     }

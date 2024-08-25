@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+
+
+body{
+    
+    background-color: #f5f5f5;
+    color: #333333;
+}
+		
+		
+		@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+	font-size: 20px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	
+}
+
+.navigation_bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/* background-image: linear-gradient(to right,#f7c396,#d2884f,#f46e15,#ae3806); */
+	background-color: rgb(15, 15, 15);
+	z-index: 2;
+}
+.navmenu
+{
+	color: rgb(253, 251, 255);
+	font-weight: bolder;
+	transition-duration: 0.6s;
+}
+.navmenu:hover{
+	color: limegreen;
+}
+.logo,.myname{
+	font-size: 25px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-family:Arial Black ;
+	color: rgb(245, 244, 248);
+	-webkit-text-stroke: 1px rgb(236, 241, 235);
+    transition-duration: 0.6s;
+}
+.logo:hover{
+    color: limegreen;
+
+}
+
+
+.video-div
+{
+	width: 100px;
+	height: 500px;
+}
+		
+		
+		
+
+		.main-container
+		{
+			display: flex;
+			background-color: #cccccc;
+			margin-top: 20px ;
+			height: 100vh ;
+		}
+		.content
+		{
+			margin-left: 15%;
+			margin-top: 10px;
+		}
+		.container
+		{
+			width: 35%;
+			height: 650px;
+			background-color: whitesmoke;
+			position: relative;
+			margin-left: 10%;
+			margin-top: 70px;
+			border-radius: 120px 0px 0px 120px;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1
+		{
+			font-family: Arial;
+			font-size:35px;
+		}
+
+		.input-style
+		{
+			width: 70%;
+			height: 40px;
+			text-align: center;
+			font-size: 20px;
+			outline: none;
+			border: none;
+			border-radius: 10px;
+			background-color: white;
+		}
+
+		button[type="submit"]
+		{
+			width: 20%;
+			height: 30px;
+			border-radius: 10px;
+			outline: none;
+			border: none;
+			background-color: orangered;
+			margin-top: 10px;
+			color: white;
+			font-size: 20px;
+		}
+		
+		span
+		{
+			font-weight:bolder ;
+		}
+		
+		.logInBtn
+		{
+			margin-top: 10px ;
+		}

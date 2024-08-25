@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register page </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+		
+		<div class="navigation_bar">
+            
+            <nav class="navbar navbar-expand-lg navbar-light ">
+				<img src="Images/leaf.png" alt="" height="45px">
+                  <a class="navbar-brand" href="#"><span class="logo">Green park</span></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.jsp"><span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="AdminSignInUp.html"><span class="navmenu">Admin</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Login.html"><span class="navmenu">Login</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Register.html"><span class="navmenu">SignUp</span></a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </nav>
+        </div>
+
+			
+			<div class="main-container">
+			<div class="content">
+			<img src="Images/green.png" height="400px">
+			</div>
+			<div class="container">
+				<h1>Register Here </h1>
+				<form action="registerUser" method="post">
+					<input type="text" name="name" id="name" placeholder="Name" class="input-style" required pattern="[A-Za-z]{}"> <br><br>
+					<input type="email" name="email" id="email" placeholder="Email" class="input-style" required> <br><br>
+					<input type="number" name="phone" id="phone" placeholder="Phone" class="input-style" required pattern="[7-9]{1}[0-9]{9}" min="6000000000" max="9999999999"> <br><br>
+					<input type="password" name="password" id="password" placeholder="Password" class="input-style" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"> <br><br>
+					<input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" class="input-style" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"> <br><br>
+					<input type="number" name="age" id="age" placeholder="Age" class="input-style" required  min="6" max="50"> <br><br>
+					<input type="radio" name="gender" id="male" value="Male"><span>Male</span>
+					<input type="radio" name="gender" id="female" value="Female"><span>Female</span>
+					<input type="radio" name="gender" id="other" value="Other"><span>Other</span> <br><br>
+					
+					<button type="submit" onclick="registerUser()">Register</button>
+				</form>
+				<div class="logInBtn">
+					<a href="Login.html">Already have an Account?</a>
+				</div>
+			</div>
+		</div>
+
+	<script type="text/javascript">
+		let password = document.getElementById("password") ;
+		let confirmPassword = document.getElementById("confirmPassword") ;
+		let num = document.getElementById("phone").value ;
+
+		function registerUser()
+		{	
+			if((password.value)==(confirmPassword.value))
+			{
+				
+			}
+			else
+			{
+				alert("Password not matched..")
+			}
+		}
+	</script>
+</body>
+</html>

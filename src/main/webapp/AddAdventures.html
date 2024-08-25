@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Adventures</title>
+<style type="text/css">
+
+		body
+		{
+			background-image: url("Images/background1.png");
+			background-size: cover;
+		}
+		.container
+		{
+			text-align: center;
+			margin-top: 100px;
+			margin-left: 60px;
+			background-color: navajowhite;
+			width: 40%;
+			height: 400px;
+			border: 0px 0px 20px gray;
+			border-radius: 20px;
+		}
+
+		.container h1
+		{
+			padding-top: 20px;
+			text-decoration: underline;
+		}
+
+		.container label
+		{
+			font-size: 25px;
+			font-weight: 400;
+		}
+
+		.container input
+		{
+			margin-top: 15px;
+			width: 60%;
+			height: 30px;
+			border-radius: 10px;
+			border: 1px solid gray;
+			outline: none;
+			text-align: center;
+			font-size: 20px;
+		}
+
+		.container button
+		{
+			margin-top: 20px ;
+			width: 150px;
+			height: 40px;
+			border-radius: 10px;
+			outline: none;
+			border: none;
+			font-size: 17px;
+			margin-left: 10px;
+		}
+
+		.container button:hover
+		{
+			background-color: red;
+		}
+
+		.container a
+		{
+			text-decoration: none;
+			font-size: 17px;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+		<div class="container">
+			<h1> Add Adventures </h1>
+			<form action="addAdventures" method="post">
+				<label>Adventures Name: </label> <br>
+				<input type="text" name="name" placeholder="Enter Adventure name" required> <br><br>
+				<label>Adventure Price: </label> <br>
+				<input type="number" name="price" placeholder="Enter Adventure price" required> <br><br>
+				<button type="submit"> Add Adventure </button>
+				<button> <a href="ViewAdventures.jsp"> Cancel </a> </button>
+			</form>
+		</div>
+</body>
+</html>

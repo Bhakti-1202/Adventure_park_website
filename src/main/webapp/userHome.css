@@ -1,0 +1,198 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+	font-size: 20px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #4a4e69;
+}
+
+.navigation_bar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgb(162, 193, 220);
+	z-index: 2;
+}
+
+.navmenu
+{
+	color: rgb(96, 63, 157);
+	font-weight: bolder;
+	transition-duration: 0.6s;
+}
+
+.navmenu:hover
+{
+	color: limegreen;
+}
+
+.logo,.myname
+{
+	font-size: 25px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-family:Arial Black ;
+	color: rgb(96, 63, 157);
+	-webkit-text-stroke: 1px rgb(236, 241, 235);
+    transition-duration: 0.6s;
+}
+
+.logo:hover
+{
+    color: limegreen;
+}
+
+#advanture-name
+{
+	text-align: center;
+	background-color: #6f80e1;
+	height: 70px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+.advanture-main
+{
+	height: 20vh;
+	width: 50vw;
+	display: flex;
+	flex-direction: initial;
+	justify-content: center;
+	justify-content: center ;
+	height: 500px;
+	width: 100%;
+}
+
+.advanture-submain
+{
+	width: 320px;
+	height: 380px;
+	box-shadow: 0px 0px 20px rgb(96, 98, 102);
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 100px;
+	background-color: rgb(162, 193, 220);
+	cursor: pointer;
+}
+
+.advanture-submain:hover
+{
+	box-shadow: 0px 0px 20px whitesmoke;
+}
+
+.adventure-section
+{
+	height: 250px;
+    width: 250px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+	border-radius: 50%;
+    position: relative;
+    top: 10px;
+} 
+
+#camp
+{
+	background-image: url("Images/campingimg1.jpg");
+	background-size: cover;	
+}
+
+#boat
+{
+	background-image: url("Images/boatingimg1.jpg");
+	background-size: cover;
+}
+
+#jump
+{
+	background-image: url("Images/jumping.jpg");
+	background-size: cover;
+}
+
+#hill
+{
+	background-image: url("Images/hillcliming.jpeg");
+	background-size: cover;
+}
+
+#sky
+{
+	background-image: url("Images/skydriving.jpg");
+	background-size: cover;
+}
+
+#rock
+{
+	background-image: url("Images/rockclimbing.jpg");
+	background-size: cover;
+}
+
+#zip
+{
+	background-image: url("Images/ziplining.jpg");
+	background-size: cover;
+}
+
+#underwater
+{
+	background-image: url("Images/underwaterdiving.webp");
+	background-size: cover;
+}
+
+h4
+{
+	color: black;
+	margin-top: 10px;
+	transition-duration: 1ms;
+}
+
+.book
+{
+	width: 50%;
+	height: 40px;
+	background: #6b6c6d;;
+	font-size: 25px;
+	font-weight: 500;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+	transition-duration: 0.6s;
+}
+
+.book:hover
+{
+background: limegreen;;
+}
+
+.book12
+{
+	color: black; 
+	text-decoration: none;
+	font-size: 25px ;
+}
+
+footer
+{
+	background-color: #adb7f0;
+    color: white;
+    text-align: center;
+}
+
+img
+{
+	position: relative;
+	margin-bottom: 0px;
+	margin-top:0px;
+}

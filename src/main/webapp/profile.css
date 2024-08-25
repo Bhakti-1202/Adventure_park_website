@@ -1,0 +1,187 @@
+@charset "ISO-8859-1";
+
+	*{
+		font-size: 20px;
+		font-family: sans-serif;
+		box-sizing: border-box;
+	}
+	
+	body
+	{
+		background-color: #4a4e69;
+	}
+	
+	.navigation_bar
+	{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		background-color: rgb(162, 193, 220);
+		z-index: 2;
+	}
+	
+	.navmenu
+	{
+		color: rgb(96, 63, 157);
+		font-weight: bolder;
+		transition-duration: 0.6s;
+	}
+	
+	.navmenu:hover
+	{
+		color: limegreen;
+	}
+	
+	.logo,.myname
+	{
+		font-size: 25px;
+		font-weight: bolder;
+		font-variant: small-caps;
+		font-family:Arial Black ;
+		color: rgb(96, 63, 157);
+		-webkit-text-stroke: 1px rgb(236, 241, 235);
+	    transition-duration: 0.6s;
+	}
+	
+	.logo:hover
+	{
+	    color: limegreen;
+	}
+	
+	.main-container
+	{
+		display: flex;
+	}
+
+	.image-container
+	{
+		width: 30%;
+		height: 600px;
+		background-color: gray;
+		margin-top: 80px;
+		margin-left: 10px;
+		text-align: center;
+		border-radius: 10px;
+		box-shadow: 0px 0px 20px whitesmoke;
+		position: fixed;
+	}
+
+	.image-container img
+	{
+		width: 70%;
+	}
+
+	.image-container button
+	{
+		width: 100px;
+		height: 40px;
+		border: none;
+		outline: none;
+		border-radius: 10px;
+		background-color: lightskyblue;
+	}
+
+	#btn
+	{
+		color: red;
+	}
+	#btn:hover
+	{
+		color: black;
+	}
+
+	.image-container button:hover
+	{
+		background-color: red;
+		border: 1px solid white;
+	}
+
+
+	.about-container
+	{
+		margin-top: 100px;
+		background-color: whitesmoke;
+		width: 60%;
+		height: 500px;
+		border-radius: 10px;
+		margin-left: 35%;
+		box-shadow: 0px 0px 20px gray;
+
+	}
+
+	.profile-container h2
+	{
+		font-weight: bolder;
+		padding:20px ;
+	}
+
+	.profile-container label
+	{
+		font-size: 20px;
+		font-weight: 550;
+		padding-left: 50px;
+		width: 200px;
+	}
+
+	.profile-container span
+	{
+		margin-left: 80px;
+	}
+
+	
+	.heading
+	{
+		margin-top: 80px;
+		width: 100% ;
+		height: 80px;
+		text-align: center;
+		background-color: orangered;
+		border-radius: 20px;
+	}
+
+	.heading h2
+	{
+		padding-top: 15px;
+		margin-top: 20px ;
+		font-weight: bolder;
+	}
+
+	.booking-container
+	{
+		margin-top: 50px;
+		padding-top : 50px ;
+		background-color: papayawhip;
+		border-radius: 10px;
+		height: 550px ;
+	}
+
+
+
+	.booking-container label
+	{
+		font-size: 20px;
+		font-weight: 550;
+		padding-left: 50px;
+		width: 350px;
+	}
+	
+	.booking-container form button
+	{
+		width: 100px;
+		height: 45px;
+		border: none;
+		outline: none;
+		background-color: orangeRed;
+		border-radius: 8px;
+		margin-top: -50px;
+		margin-left: 45%;
+		color: black;
+		font-size: 25px;
+	}
+
+	.booking-container button:hover
+	{
+		color: white;
+		background-color: black;
+	}

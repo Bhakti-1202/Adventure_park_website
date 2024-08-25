@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Booking</title>
+	<style type="text/css">
+
+		body
+		{
+			background-image: url("Images/background1.png");
+			background-size: cover;
+		}
+		.container
+		{
+			margin-top: 20px;
+			margin-left: 60px;
+			background-color: navajowhite;
+			width: 40%;
+			height: 720px;
+			border: 0px 0px 20px gray;
+			border-radius: 20px;
+		}
+
+		.container h1
+		{
+			text-align: center;
+			padding-top: 20px;
+			text-decoration: underline;
+		}
+
+		.lable-field
+		{
+			margin-left: 50px;
+			font-size: 20px;
+			font-weight: 400;
+		}
+
+		.container input
+		{
+			margin-left: 50px;
+		}
+
+		.input-field
+		{
+			margin-top: 5px;
+			margin-left: 50px;
+			width: 50%;
+			height: 25px;
+			border-radius: 10px;
+			border: 1px solid gray;
+			outline: none;
+			text-align: center;
+			font-size: 20px;
+		}
+
+		.container button
+		{
+			margin-top: 10px ;
+			width: 150px;
+			height: 40px;
+			border-radius: 10px;
+			outline: none;
+			border: none;
+			font-size: 17px;
+			margin-left: 10px;
+		}
+
+		.container button:hover
+		{
+			background-color: red;
+		}
+
+		.container a
+		{
+			text-decoration: none;
+			font-size: 17px;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+			<h1> Add Booking </h1>
+			<form action="addBooking" method="post">
+				<label class="lable-field">Name: </label> <br>
+				<input type="text" name="name" placeholder="Enter name" class="input-field" required> <br><br>
+				<label class="lable-field">Number of Members: </label> <br>
+				<input type="number" name="members" placeholder="Enter members" class="input-field" required> <br><br>
+				<label class="lable-field">Phone: </label> <br>
+				<input type="number" name="phone" placeholder="Enter phone" class="input-field" required> <br><br>
+				<label class="lable-field">Email: </label> <br>
+				<input type="email" name="email" placeholder="Enter email" class="input-field" required> <br><br>
+				<label class="lable-field">Date: </label> <br>
+				<input type="date" name="date" placeholder="Enter date" class="input-field" required> <br><br>
+				<label class="lable-field">Select Adventures: </label> <br>
+				<input type="checkbox" name="1" value="1"> <label>Camping</label> <br>
+				<input type="checkbox" name="2" value="2"> <label> Hill Climbing</label> <br>
+				<input type="checkbox" name="3" value="3"> <label> Rock Climbing</label> <br>
+				<input type="checkbox" name="4" value="4"> <label>Zip lining</label> <br>
+				<input type="checkbox" name="5" value="5"> <label>Sky Diving</label> <br>
+				<input type="checkbox" name="6" value="6"> <label>Bungee Jumping</label> <br>
+				<input type="checkbox" name="7" value="7"> <label>Under water jumping</label> <br>
+				<input type="checkbox" name="8" value="8"> <label>Boating</label> <br><br>
+				<button type="submit"> Add Booking </button>
+				<button> <a href="ViewBookings.jsp"> Cancel </a> </button>
+			</form>
+		</div>
+</body>
+</html>
